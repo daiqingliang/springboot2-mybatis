@@ -26,7 +26,7 @@ public class JdbcUtil {
     //获得url
     private static String URL = "jdbc:mysql://127.0.0.1/plc?characterEncoding=utf8&useSSL=false";
     //获得连接数据库的用户名
-    private static String USER = "daiql";
+    private static String USER = "root";
     //获得连接数据库的密码
     private static String PASS = "123456";
 

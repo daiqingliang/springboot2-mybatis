@@ -23,7 +23,7 @@ import java.util.List;
 public class GenerateServiceImpl {
 
     private String url = "jdbc:mysql://127.0.0.1/plc?characterEncoding=utf8&useSSL=false";
-    private String username = "daiql";
+    private String username = "root";
     private String password = "123456";
     private String driverClass = "com.mysql.cj.jdbc.Driver";
     private DatabaseMetaData dbMetaData = null;

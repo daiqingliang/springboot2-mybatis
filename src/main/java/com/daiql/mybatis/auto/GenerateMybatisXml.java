@@ -23,7 +23,7 @@ public class GenerateMybatisXml {
 
     private String url = "jdbc:mysql://localhost:3306/jdz";
     private String username = "root";
-    private String password = "root";
+    private String password = "123456";
     private String driverClass = "com.mysql.jdbc.Driver";
     private DatabaseMetaData dbMetaData = null;
     private String packageNameMybatisDao = "com.csair.test.mybatisRepository";
