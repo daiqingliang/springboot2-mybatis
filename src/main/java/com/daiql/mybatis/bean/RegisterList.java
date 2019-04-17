@@ -1,6 +1,8 @@
 package com.daiql.mybatis.bean;
 
+import lombok.Data;
 
+@Data
 public class RegisterList{
 	private Integer id;	//
 	private String registerPlcAddr;	//
@@ -8,44 +10,43 @@ public class RegisterList{
 	private String registerTypeCode;	//
 	private Integer deviceId;	//
 
+    public Integer getId() {
+        return id;
+    }
 
-	public Integer getId() {
-		return id;
-	}
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
-	public void setId(Integer id) {
-		this.id = id;
-	}
+    public String getRegisterPlcAddr() {
+        return registerPlcAddr;
+    }
 
-	public String getRegisterPlcAddr() {
-		return registerPlcAddr;
-	}
+    public void setRegisterPlcAddr(String registerPlcAddr) {
+        this.registerPlcAddr = registerPlcAddr;
+    }
 
-	public void setRegisterPlcAddr(String registerPlcAddr) {
-		this.registerPlcAddr = registerPlcAddr;
-	}
+    public String getRegisterProtocolAddr() {
+        return registerProtocolAddr;
+    }
 
-	public String getRegisterProtocolAddr() {
-		return registerProtocolAddr;
-	}
+    public void setRegisterProtocolAddr(String registerProtocolAddr) {
+        this.registerProtocolAddr = registerProtocolAddr;
+    }
 
-	public void setRegisterProtocolAddr(String registerProtocolAddr) {
-		this.registerProtocolAddr = registerProtocolAddr;
-	}
+    public String getRegisterTypeCode() {
+        return registerTypeCode;
+    }
 
-	public String getRegisterTypeCode() {
-		return registerTypeCode;
-	}
+    public void setRegisterTypeCode(String registerTypeCode) {
+        this.registerTypeCode = registerTypeCode;
+    }
 
-	public void setRegisterTypeCode(String registerTypeCode) {
-		this.registerTypeCode = registerTypeCode;
-	}
+    public Integer getDeviceId() {
+        return deviceId;
+    }
 
-	public Integer getDeviceId() {
-		return deviceId;
-	}
-
-	public void setDeviceId(Integer deviceId) {
-		this.deviceId = deviceId;
-	}
+    public void setDeviceId(Integer deviceId) {
+        this.deviceId = deviceId;
+    }
 }

@@ -1,5 +1,7 @@
 package com.daiql.mybatis.mapper;
 
+import com.github.pagehelper.PageInfo;
+
 import java.util.List;
 
 /**

@@ -10,6 +10,10 @@
 #  config-location: classpath:mapper/config/sqlMapConfig.xml
 #  type-aliases-package: com.modbus.plc.bean
 
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true #开启驼峰
+
 #数据库
 spring:
   jmx:

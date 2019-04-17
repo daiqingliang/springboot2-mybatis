@@ -1,6 +1,7 @@
 package com.daiql.mybatis.mapper;
 
 import com.daiql.mybatis.bean.RegisterList;
+import com.github.pagehelper.PageInfo;
 import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Component;
 
@@ -37,6 +38,6 @@ public interface RegisterListMapper extends CommonMapper<RegisterList> {
     RegisterList queryOne(int id);
 
     @Override
-    @Select(" select * from register_list limit 1,100")
+    @Select(" select * from register_list order by id")
     List<RegisterList> queryAll();
 }
